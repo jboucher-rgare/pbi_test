@@ -1,0 +1,11 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/gitIntegration/platformProperties/2.0.0/schema.json",
+  "metadata": {
+    "type": "Report",
+    "displayName": "Loan Investor Acctg Dt"
+  },
+  "config": {
+    "version": "2.0",
+    "logicalId": "b8d3d0e1-349b-4a83-9cd1-930b958707e4"
+  }
+}

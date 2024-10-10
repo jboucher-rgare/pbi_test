@@ -1,0 +1,11 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/gitIntegration/platformProperties/2.0.0/schema.json",
+  "metadata": {
+    "type": "PaginatedReport",
+    "displayName": "L146 Insurance Renewal Control Report"
+  },
+  "config": {
+    "version": "2.0",
+    "logicalId": "0795492a-85e8-4939-8ff1-138beed9582b"
+  }
+}

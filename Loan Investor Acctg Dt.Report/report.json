@@ -1,0 +1,51 @@
+{
+  "config": "{\"version\":\"5.51\",\"themeCollection\":{\"baseTheme\":{\"name\":\"CY24SU02\",\"version\":\"5.53\",\"type\":2}},\"activeSectionIndex\":0,\"defaultDrillFilterOtherVisuals\":true,\"linguisticSchemaSyncVersion\":2,\"settings\":{\"useNewFilterPaneExperience\":true,\"allowChangeFilterTypes\":true,\"useStylableVisualContainerHeader\":true,\"queryLimitOption\":6,\"exportDataMode\":1,\"useDefaultAggregateDisplayName\":true},\"objects\":{\"section\":[{\"properties\":{\"verticalAlignment\":{\"expr\":{\"Literal\":{\"Value\":\"'Top'\"}}}}}]}}",
+  "layoutOptimization": 0,
+  "resourcePackages": [
+    {
+      "resourcePackage": {
+        "disabled": false,
+        "items": [
+          {
+            "name": "CY24SU02",
+            "path": "BaseThemes/CY24SU02.json",
+            "type": 202
+          }
+        ],
+        "name": "SharedResources",
+        "type": 2
+      }
+    }
+  ],
+  "sections": [
+    {
+      "config": "{}",
+      "displayName": "Page 1",
+      "displayOption": 1,
+      "filters": "[]",
+      "height": 720.00,
+      "name": "ReportSection",
+      "visualContainers": [
+        {
+          "config": "{\"name\":\"551e2829e8c0f3e2ef17\",\"layouts\":[{\"id\":0,\"position\":{\"x\":10.029382957884428,\"y\":0,\"z\":0,\"width\":435.02448579823704,\"height\":368.5798237022527,\"tabOrder\":0}}],\"singleVisual\":{\"visualType\":\"tableEx\",\"projections\":{\"Values\":[{\"queryRef\":\"Dim Loan.Correspondent Name\"},{\"queryRef\":\"Sum(Fct Loan Investor.Principal_Balance)\"}]},\"prototypeQuery\":{\"Version\":2,\"From\":[{\"Name\":\"f\",\"Entity\":\"Fct Loan Investor\",\"Type\":0},{\"Name\":\"d\",\"Entity\":\"Dim Loan\",\"Type\":0}],\"Select\":[{\"Aggregation\":{\"Expression\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"f\"}},\"Property\":\"Principal_Balance\"}},\"Function\":0},\"Name\":\"Sum(Fct Loan Investor.Principal_Balance)\",\"NativeReferenceName\":\"Sum of Principal_Balance\"},{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"d\"}},\"Property\":\"Correspondent Name\"},\"Name\":\"Dim Loan.Correspondent Name\",\"NativeReferenceName\":\"Correspondent Name\"}]},\"drillFilterOtherVisuals\":true}}",
+          "filters": "[]",
+          "height": 368.58,
+          "width": 435.02,
+          "x": 10.03,
+          "y": 0.00,
+          "z": 0.00
+        },
+        {
+          "config": "{\"name\":\"e22ecbfcab46ed0656f5\",\"layouts\":[{\"id\":0,\"position\":{\"x\":455.05386875612146,\"y\":0,\"width\":435.02448579823704,\"height\":368.5798237022527,\"z\":1}}],\"singleVisual\":{\"visualType\":\"tableEx\",\"projections\":{\"Values\":[{\"queryRef\":\"Dim Loan.Accounting_Date.Variation.Date Hierarchy.Year\"},{\"queryRef\":\"Dim Loan.Accounting_Date.Variation.Date Hierarchy.Quarter\"},{\"queryRef\":\"Dim Loan.Accounting_Date.Variation.Date Hierarchy.Month\"},{\"queryRef\":\"Dim Loan.Accounting_Date.Variation.Date Hierarchy.Day\"}]},\"prototypeQuery\":{\"Version\":2,\"From\":[{\"Name\":\"d\",\"Entity\":\"Dim Loan\",\"Type\":0}],\"Select\":[{\"HierarchyLevel\":{\"Expression\":{\"Hierarchy\":{\"Expression\":{\"PropertyVariationSource\":{\"Expression\":{\"SourceRef\":{\"Source\":\"d\"}},\"Name\":\"Variation\",\"Property\":\"Accounting_Date\"}},\"Hierarchy\":\"Date Hierarchy\"}},\"Level\":\"Year\"},\"Name\":\"Dim Loan.Accounting_Date.Variation.Date Hierarchy.Year\",\"NativeReferenceName\":\"Accounting_Date Year\"},{\"HierarchyLevel\":{\"Expression\":{\"Hierarchy\":{\"Expression\":{\"PropertyVariationSource\":{\"Expression\":{\"SourceRef\":{\"Source\":\"d\"}},\"Name\":\"Variation\",\"Property\":\"Accounting_Date\"}},\"Hierarchy\":\"Date Hierarchy\"}},\"Level\":\"Quarter\"},\"Name\":\"Dim Loan.Accounting_Date.Variation.Date Hierarchy.Quarter\",\"NativeReferenceName\":\"Accounting_Date Quarter\"},{\"HierarchyLevel\":{\"Expression\":{\"Hierarchy\":{\"Expression\":{\"PropertyVariationSource\":{\"Expression\":{\"SourceRef\":{\"Source\":\"d\"}},\"Name\":\"Variation\",\"Property\":\"Accounting_Date\"}},\"Hierarchy\":\"Date Hierarchy\"}},\"Level\":\"Month\"},\"Name\":\"Dim Loan.Accounting_Date.Variation.Date Hierarchy.Month\",\"NativeReferenceName\":\"Accounting_Date Month\"},{\"HierarchyLevel\":{\"Expression\":{\"Hierarchy\":{\"Expression\":{\"PropertyVariationSource\":{\"Expression\":{\"SourceRef\":{\"Source\":\"d\"}},\"Name\":\"Variation\",\"Property\":\"Accounting_Date\"}},\"Hierarchy\":\"Date Hierarchy\"}},\"Level\":\"Day\"},\"Name\":\"Dim Loan.Accounting_Date.Variation.Date Hierarchy.Day\",\"NativeReferenceName\":\"Accounting_Date Day\"}]},\"drillFilterOtherVisuals\":true}}",
+          "filters": "[]",
+          "height": 368.58,
+          "width": 435.02,
+          "x": 455.05,
+          "y": 0.00,
+          "z": 1.00
+        }
+      ],
+      "width": 1280.00
+    }
+  ]
+}

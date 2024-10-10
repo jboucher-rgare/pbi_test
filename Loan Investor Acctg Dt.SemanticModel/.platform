@@ -1,0 +1,11 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/gitIntegration/platformProperties/2.0.0/schema.json",
+  "metadata": {
+    "type": "SemanticModel",
+    "displayName": "Loan Investor Acctg Dt"
+  },
+  "config": {
+    "version": "2.0",
+    "logicalId": "f70464aa-9493-4ac6-82f6-23521095da76"
+  }
+}
